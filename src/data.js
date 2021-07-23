@@ -2,23 +2,23 @@ const data = {
   exchanges: [
     {
       name: "BSE",
-      index: 841.42,
-      change: 1.54,
+      index: 841,
+      change: 76,
     },
     {
       name: "CSE",
-      index: 841.42,
-      change: 1.54,
+      index: 676,
+      change: 167,
     },
     {
       name: "Indian INX",
-      index: 841.42,
-      change: 1.54,
+      index: 543,
+      change: 457,
     },
     {
       name: "NSE",
-      index: 841.42,
-      change: 1.54,
+      index: 345,
+      change: 200,
     },
   ],
   stocks: [
@@ -58,7 +58,7 @@ const data = {
           description:
             "This is the description. It is usually a lot longer than the title and contains information about the research that has been done",
           link: "https://google.com",
-          author: { name: "Pavan", authorId: "author123" },
+          author: { name: "DSCE", authorId: "author123" },
           id: 1,
         },
       ],

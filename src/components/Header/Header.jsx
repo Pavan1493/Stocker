@@ -1,5 +1,5 @@
 import React from "react";
-
+import { ReactComponent as Icon} from "../../assets/icons/images.jpg";
 import styles from "./Header.module.css";
 import { ReactComponent as Logo } from "../../assets/icons/chart-line.svg";
 import { Link } from "react-router-dom";
@@ -17,7 +17,7 @@ const Header = () => {
         </a>
 
         <div className={styles.userContainer}>
-          <div className={styles.user}>J</div>
+          <div className={styles.logo}>Team 6</div>
           <span></span>
         </div>
       </div>
